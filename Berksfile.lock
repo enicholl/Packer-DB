@@ -1,0 +1,28 @@
+DEPENDENCIES
+  mongo
+    git: git@github.com:enicholl/Mongo-Cookbook.git
+    revision: c17eb8cd9b1359e8f255aa3c99f2532c9856e6ac
+  node
+    git: git@github.com:enicholl/Node-Cookbook.git
+    revision: df2078355124b5faee7efe6914533da3a30a481c
+
+GRAPH
+  apt (7.2.0)
+  ark (5.0.0)
+    seven_zip (>= 0.0.0)
+  build-essential (8.2.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  mingw (2.1.0)
+    seven_zip (>= 0.0.0)
+  mongo (0.1.0)
+    apt (>= 0.0.0)
+  node (0.1.0)
+    apt (>= 0.0.0)
+    nodejs (~> 5.0.0)
+  nodejs (5.0.0)
+    ark (>= 2.0.2)
+    build-essential (>= 0.0.0)
+  seven_zip (3.1.2)
+    windows (>= 0.0.0)
+  windows (6.0.1)
